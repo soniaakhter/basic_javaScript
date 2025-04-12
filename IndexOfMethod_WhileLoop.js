@@ -1,4 +1,4 @@
-const Person = require('./Class_Propertics')
+const Person = require('./Class_Properties')
 let day = 'tuesday '
 console.log(day.length)  //8
 let subDay = day.slice(0,4)

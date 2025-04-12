@@ -2,7 +2,7 @@
 //one class can inherit/acquire the properties,Methods of another class
 //The class which inherits the properties of other is known as subclass (derived class, child class) and 
 //the class whose properties are inherited is known as superclass
-const Person = require("./Class_Propertics")
+const Person = require("./Class_Properties")
 class Pet extends Person
 
 {
