@@ -3,7 +3,7 @@ module.exports = class Person
 
     age = 25
    // location ="canada"
-    get location()
+    get location() // propertices
     {
         return "canada"
     }
@@ -15,7 +15,7 @@ module.exports = class Person
         this.lastName = lastName
     }
     //methods
-    fullName()
+    fullName() 
     {
         console.log(this.firstName+this.lastName)
     }
